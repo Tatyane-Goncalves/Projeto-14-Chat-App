@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+:root{
+    --paleviolet: hsl(276, 100%, 81%); /* sub-heading at the top of the app UI */
+    --chat-left: hsl(276, 55%, 52%);
+    --chat-right: hsl(271, 15%, 43%);
+    --placeholder-txt: hsl(206, 6%, 79%);
+    --main-heading: hsl(271, 36%, 24%);
+    --paragraph:  hsl(270, 7%, 64%);
+
+    --gradient1: hsl(293, 100%, 63%);
+    --gradient2: hsl(264, 100%, 61%);
+
+    --white: hsl(0, 0%, 100%);
+    --app-bg: hsl(270, 20%, 96%);
+    --summit-btn-bg: hsl(271, 36%, 24%);
+    --radio-btn-outline: hsl(289, 100%, 72%);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+/*
+body{
+    background-color: black;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.app-out{
+    background-color: white;
+    margin: 2rem 5rem;
+    padding: 1rem 1rem 1.2rem 1rem;
+    border-radius: 15px;
+}
+
+.app{
+    background-color: var(--app-bg);
+}
+
+.top{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+    background: linear-gradient(var(--gradient2), var(--gradient1));
+    border-radius: 15px 15px 2px 2px;
+    margin-bottom: 1rem;
+}
+
+.top i{
+    color: white;
+    font-size: 12px;
+}
+
+.image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    gap: 1rem;
+}
+
+.name{
+    font-size: 1rem;
+    color: var(--white);
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.subtitle{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: var(--white);
+    opacity: 70%;
+}
+
+#vertical{
+    opacity: 70%;
+}
+
+.left{
+    background-color: var(--paleviolet);
+    width: 200px;
+    margin: 0.5rem 0;
+    border-radius: 5px 5px 5px 0;
+    padding: 0.3rem;
+}
+
+.left p{
+    color: var(--chat-left);
+}
+
+#dogs{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem 0;
+}
+
+#dogs img{
+    width: 50px;
+    height: 50px;
+    border-radius: 1rem;
+}
+
+.right{
+    background-color: white;
+    border-radius: 5px 5px 5px 0;
+}
+
+.rodape{
+    font-size: 1em;
+    text-align: center;
+    padding: 1em;
+}
+
+.rodape a{
+    text-decoration: none;
+    color: var(--paragraph);
+}
+
+.rodape a:hover{
+    text-decoration: underline;
+    color: var(--main-heading);
+}
+
+
+
+
+@media screen and (min-width: 1180px){
+
+    .rodape{
+        padding-bottom: 1rem;
+        text-align: center;
+    }
+}
+
+/*
+body{
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
